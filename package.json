@@ -1,0 +1,24 @@
+{
+  "name": "api_pokemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "mariadb": "^3.3.2",
+    "nodemon": "^3.1.6",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
